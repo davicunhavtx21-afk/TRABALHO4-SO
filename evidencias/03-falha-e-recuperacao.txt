@@ -1,0 +1,19 @@
+=== ANTES DA FALHA (RestartCount) ===
+0
+
+=== ACIONANDO FALHA CONTROLADA (/falha) ===
+falha controlada: processo encerrando com codigo 1
+
+=== DEPOIS DA FALHA (RestartCount - deve passar de 0 para 1) ===
+1
+
+=== LOGS DE RECUPERACAO AUTOMATICA ===
+servico-so  | 2026-11-16 23:21:27,004 INFO iniciando servico-so: pid=1 uid=10001 usuario=appuser porta=8080 log_level=INFO
+servico-so  | 2026-11-18 23:07:39,478 INFO iniciando servico-so: pid=1 uid=10001 usuario=appuser porta=8080 log_level=INFO
+servico-so  | 2026-11-18 23:21:08,116 INFO requisicao GET / de 172.18.0.1 -> 200
+servico-so  | 2026-11-18 23:21:08,320 INFO requisicao GET /status de 172.18.0.1 -> 200
+servico-so  | 2026-11-18 23:21:19,100 ERROR falha controlada solicitada por 172.18.0.1: encerrando com codigo 1
+servico-so  | 2026-11-18 23:21:22,377 INFO iniciando servico-so: pid=1 uid=10001 usuario=appuser porta=8080 log_level=INFO
+
+=== TESTE POS-RECUPERACAO (/) ===
+servico-so funcionando (PID 1, UID 10001)

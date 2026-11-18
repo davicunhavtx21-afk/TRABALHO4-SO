@@ -1,0 +1,5 @@
+=== UTILIZADOR EFETIVO NO CONTAINER (UID != 0) ===
+uid=10001(appuser) gid=10001(appgrp) groups=10001(appgrp)
+
+=== CONFIGURACAO E SEGURANCA ===
+User: appuser | Privileged: false

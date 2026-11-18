@@ -1,0 +1,5 @@
+=== PARANDO O SERVICO (docker compose stop) ===
+NAME         IMAGE                                                                     COMMAND                SERVICE   CREATED      STATUS                              PORTS
+servico-so   sha256:129dfa4b25f974a8df1ba4beb3ba8b6aab0d20bbc86ffeae4f666f81ec49cc3f   "python /app/app.py"   servico   2 days ago   Exited (0) Less than a second ago   
+
+=== REMOVENDO RECURSOS (docker compose down) ===
