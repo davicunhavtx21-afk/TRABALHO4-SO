@@ -1,6 +1,9 @@
 # Evidências do Trabalho 4 - Sistemas Operacionais
 
-* *01-servico-funcionando.txt*: Comprova a construção da imagem, arranque do container e resposta das rotas HTTP (/ e /status).
-* *02-usuario-e-seguranca.txt*: Comprova que a aplicação roda com utilizador sem privilégios (appuser, UID 10001) e sem modo privilegiado.
-* *03-falha-e-recuperacao.txt*: Demonstra o contador de reinícios antes da falha (0), a ativação da rota de falha, o incremento para 1 via restart: on-failure, os logs do erro e o restabelecimento.
-* *04-parada-normal.txt*: Regista o encerramento gracioso do serviço e a limpeza completa dos recursos.
+- 01-servico-funcionando.txt: Estado do serviço e listagem completa com docker ps e docker ps -a.
+- 02-usuario-e-seguranca.txt: Usuário/UID, Privileged, sistema de arquivos somente leitura (ReadonlyRootfs), capabilities removidas (CapDrop) e processos com docker top.
+- 03-falha-e-recuperacao.txt: Registro de falha e recuperação do serviço.
+- 04-parada-normal.txt: Encerramento normal e limpeza de recursos.
+- 05-limites.txt: Limites de recursos configurados e leitura atual via docker stats.
+- 06-configuracao-externa.txt: Configuração externa via compose.yaml, variáveis de ambiente e montagens.
+- 07-logs.txt: Logs completos gerados pelo serviço.

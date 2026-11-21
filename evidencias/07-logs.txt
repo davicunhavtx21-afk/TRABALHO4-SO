@@ -1,0 +1,1 @@
+servico-so  | 2026-11-21 22:28:49,756 INFO iniciando servico-so: pid=1 uid=10001 usuario=appuser porta=8080 log_level=INFO

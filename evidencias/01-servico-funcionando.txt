@@ -1,18 +1,8 @@
-=== ESTADO DO CONTAINER (docker compose ps) ===
-NAME         IMAGE                                                                     COMMAND                SERVICE   CREATED      STATUS          PORTS
-servico-so   sha256:129dfa4b25f974a8df1ba4beb3ba8b6aab0d20bbc86ffeae4f666f81ec49cc3f   "python /app/app.py"   servico   2 days ago   Up 13 minutes   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp
+=== docker ps ===
+CONTAINER ID   IMAGE            COMMAND                CREATED         STATUS         PORTS                                         NAMES
+ac653ddd3ee3   servico-so:1.0   "python /app/app.py"   9 minutes ago   Up 9 minutes   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   servico-so
 
-=== TESTE ROTA RAIZ (/) ===
-servico-so funcionando (PID 1, UID 10001)
-
-=== TESTE ROTA /status ===
-{
-  "app": "servico-so",
-  "pid": 1,
-  "ppid": 0,
-  "uid": 10001,
-  "gid": 10001,
-  "usuario": "appuser",
-  "porta": 8080,
-  "log_level": "INFO"
-}
+=== docker ps -a ===
+CONTAINER ID   IMAGE            COMMAND                CREATED         STATUS                  PORTS                                         NAMES
+ac653ddd3ee3   servico-so:1.0   "python /app/app.py"   9 minutes ago   Up 9 minutes            0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   servico-so
+e4830f0d5324   hello-world      "/hello"               8 days ago      Exited (0) 8 days ago                                                 gallant_mcclintock

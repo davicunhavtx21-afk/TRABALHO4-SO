@@ -1,5 +1,12 @@
-=== UTILIZADOR EFETIVO NO CONTAINER (UID != 0) ===
-uid=10001(appuser) gid=10001(appgrp) groups=10001(appgrp)
+=== Usuario e UID no container ===
 
-=== CONFIGURACAO E SEGURANCA ===
-User: appuser | Privileged: false
+=== Privileged ===
+
+
+=== Sistema de arquivos somente leitura (ReadonlyRootfs) ===
+
+
+=== Capabilities removidas (CapDrop) ===
+
+
+=== docker top ===
