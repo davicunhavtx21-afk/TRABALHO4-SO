@@ -1,8 +1,8 @@
 === docker ps ===
-CONTAINER ID   IMAGE            COMMAND                CREATED         STATUS         PORTS                                         NAMES
-ac653ddd3ee3   servico-so:1.0   "python /app/app.py"   9 minutes ago   Up 9 minutes   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   servico-so
+CONTAINER ID   IMAGE            COMMAND                CREATED          STATUS          PORTS                                         NAMES
+ac653ddd3ee3   servico-so:1.0   "python /app/app.py"   16 minutes ago   Up 16 minutes   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   servico-so
 
 === docker ps -a ===
-CONTAINER ID   IMAGE            COMMAND                CREATED         STATUS                  PORTS                                         NAMES
-ac653ddd3ee3   servico-so:1.0   "python /app/app.py"   9 minutes ago   Up 9 minutes            0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   servico-so
-e4830f0d5324   hello-world      "/hello"               8 days ago      Exited (0) 8 days ago                                                 gallant_mcclintock
+CONTAINER ID   IMAGE            COMMAND                CREATED          STATUS                  PORTS                                         NAMES
+ac653ddd3ee3   servico-so:1.0   "python /app/app.py"   16 minutes ago   Up 16 minutes           0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   servico-so
+e4830f0d5324   hello-world      "/hello"               8 days ago       Exited (0) 8 days ago                                                 gallant_mcclintock

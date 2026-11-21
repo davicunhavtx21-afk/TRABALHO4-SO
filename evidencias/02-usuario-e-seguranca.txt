@@ -1,12 +1,15 @@
 === Usuario e UID no container ===
+uid=10001(appuser) gid=10001(appgrp) groups=10001(appgrp)
 
 === Privileged ===
-
+false
 
 === Sistema de arquivos somente leitura (ReadonlyRootfs) ===
-
+true
 
 === Capabilities removidas (CapDrop) ===
-
+["ALL"]
 
 === docker top ===
+UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
+10001               4341                4318                0                   22:28               ?                   00:00:01            python /app/app.py
