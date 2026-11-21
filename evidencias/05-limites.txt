@@ -1,4 +1,6 @@
 === Limites HostConfig (Memory, NanoCpus, PidsLimit) ===
-
+Memory=134217728 NanoCpus=500000000 PidsLimit=50
 
 === docker stats --no-stream ===
+CONTAINER ID   NAME         CPU %     MEM USAGE / LIMIT   MEM %     NET I/O         BLOCK I/O     PIDS
+ac653ddd3ee3   servico-so   0.05%     16.09MiB / 128MiB   12.57%    9.11kB / 126B   26.4MB / 0B   1
