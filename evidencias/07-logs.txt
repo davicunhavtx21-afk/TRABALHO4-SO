@@ -1,1 +1,7 @@
-servico-so  | 2026-11-21 22:28:49,756 INFO iniciando servico-so: pid=1 uid=10001 usuario=appuser porta=8080 log_level=INFO
+servico-so funcionando (PID 1, UID 10001)
+
+rota nao encontrada
+
+servico-so  | 2026-11-23 18:39:23,854 INFO iniciando servico-so: pid=1 uid=10001 usuario=appuser porta=8080 log_level=INFO
+servico-so  | 2026-11-23 18:45:20,469 INFO requisicao GET / de 172.18.0.1 -> 200
+servico-so  | 2026-11-23 18:45:20,553 WARNING requisicao GET /xyz de 172.18.0.1 -> 404
