@@ -5,5 +5,5 @@
 - 03-falha-e-recuperacao.txt: Registro de falha e recuperação do serviço.
 - 04-parada-normal.txt: Encerramento normal e limpeza de recursos.
 - 05-limites.txt: Limites de recursos configurados e leitura atual via docker stats.
-- 06-configuracao-externa.txt: Configuração externa via compose.yaml, variáveis de ambiente e montagens.
+- 06-configuracao-externa.txt: alteração de LOG_LEVEL (INFO → DEBUG) e da porta publicada (8080 → 8081) pelo .env, sem editar o código, com a resposta do /status confirmando o novo valor.
 - 07-logs.txt: Logs completos gerados pelo serviço.
