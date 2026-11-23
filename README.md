@@ -22,8 +22,8 @@ Servidor HTTP simples em Python (somente biblioteca padrão) executado em um con
 
 ## Pré-requisitos
 
-- Linux (testado em Ubuntu XX.XX em VM VirtualBox)
-- Docker Engine XX.X e Docker Compose v2 (`docker compose version`)
+- Linux (testado em Ubuntu 26.04.1 LTS em VM VirtualBox)
+- Docker Engine 29.1.3 e Docker Compose v2 (`docker compose version`)
 - git e curl
 
 > Observação de segurança: adicionar o usuário ao grupo `docker` dá a ele acesso equivalente a root no host. Por isso, em ambiente real, o acesso ao Docker deve ser restrito a administradores (ou usar `sudo docker`).
@@ -186,7 +186,7 @@ docker compose down               # remove container e rede
 
 ## Limitações do ambiente
 
-- (Preencher se houver. Ex.: VirtualBox em NAT exige redirecionamento de porta para acessar pelo navegador do Windows; aviso de swap no `docker run --memory`.)
+- Nenhuma limitação encontrada. Os testes foram feitos com curl dentro da própria VM.
 
 ## Evidências
 
